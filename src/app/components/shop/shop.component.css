@@ -1,0 +1,111 @@
+
+.service{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items: center;
+    margin-top: 0%;
+    padding: 3%;
+    padding-bottom: 2%;
+    align-content: center;
+background-color: #42330b7e;
+}
+h1{
+    padding: 1%;
+    text-align: center;
+    background-color: hsla(38, 73%, 84%, 0.603);
+}
+.grid{
+    width: 10vw;
+    min-width: 250px;
+    height: fit-content;
+    
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+    margin: 7px;
+    margin-bottom: 3%;
+}
+.gridimg{
+    width: 10vw;
+    min-width: 250px;
+    height: 200px;
+    align-self: center;
+}
+.service .grid .weight{
+    background-color:  hsl(38, 91%, 30%);
+    width: 100px;
+    height: 20px;
+    color: hsl(38, 73%, 84%);
+    font-size: 20px;
+    text-align: left;
+    padding:0.5em 0.5em 0.5em 0.5em;
+    margin-top: 0px;
+    display: inline-block;
+}
+.tag{
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+    height: 120px;
+    justify-content:start;
+    align-items: left;
+    background-color: hsl(38, 73%, 84%);
+}
+#seed .tag{
+    height: 90px;
+}
+.cart{
+    width: 250px;
+    height: 20px;
+    background-color: hsl(38, 91%, 30%);
+    color: hsl(38, 73%, 84%);
+    font-size: 18px;
+    text-align: center;
+    padding:0.5em 0 0.5em 0;
+    margin-top: 0%;
+}
+.cart:hover{
+    font-size: 20px;
+    cursor: pointer;
+}
+.grid p{
+    color: #170b0b;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 1px;
+    padding-left: 5px;
+}
+.grid span{
+    font-size: 17px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin:0%;
+    font-weight: 400;
+    width: 70%;
+}
+#qt{
+    width: 100%;
+    margin: 0%;
+    padding-right: 0%;
+}
+#qty{
+    background-color: ivory;
+    margin:0%;
+    border: none;
+    width: 14px;
+    height: 12px;
+    font-size: 12px;
+    padding:5%;
+    margin: 0%;
+}
+#head{
+    font-size: 23px;
+    font-weight: 500;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 10px 0% 0 15px;
+
+}

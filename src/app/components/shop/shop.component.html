@@ -1,0 +1,33 @@
+
+<div>
+<h1>SEEDS</h1>
+<div class="service" id="seed" *ngFor="let p of products">
+
+    <div class="grid">
+        <span class="weight">{{p.weight}}kg</span>
+        <img class="gridimg" [src]="p.image">
+        <div class="tag">
+            <p id="head">{{p.name | uppercase}}</p>
+            <p>
+                <span>Rs.{{p.price}} </span>
+            </p>
+            <h2 class="cart">{{ p.quantity < 1 ? "NO STOCK" : "Add To Cart" }}</h2>
+        </div>
+    </div>
+</div>
+<h1>FERTILIZERS</h1>
+<div class="service" *ngFor="let p of products">
+
+    <div class="grid">
+        <span class="weight">{{p.weight}}kg</span>
+        <img class="gridimg" [src]="p.image">
+        <div class="tag">
+            <p id="head">{{p.name | uppercase}}</p>
+            <p>
+                <span>Rs.{{p.price | currency:'INR'}} </span>
+            </p>
+            <h2 class="cart">{{ p.quantity < 1 ? "NO STOCK" : "Add To Cart" }}</h2>
+        </div>
+    </div>
+</div>
+</div>
